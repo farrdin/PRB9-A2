@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Mulish;
+}
+.body {
+  width: 85%;
+  margin: auto;
+}
+/* Header Start From here */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.nav .logosec {
+  display: flex;
+}
+.nav .heading {
+  padding-left: 15px;
+}
+.nav .heading .A {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav .heading .B {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav .menu ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.nav .menu ul li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 550;
+  text-align: center;
+  align-items: center;
+}
+.nav .menu ul li a:hover {
+  color: #ff5400;
+  border: 0.5px solid #ff5400;
+  border-radius: 5px;
+  padding: 5px;
+}
+/* Header End here */
+/* footer start from here */
+
+
+
+/* Footer end here */
