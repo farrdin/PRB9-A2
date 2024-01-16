@@ -20,6 +20,9 @@
 .nav .heading {
   padding-left: 15px;
 }
+.nav .heading a {
+  text-decoration: none;
+}
 .nav .heading .A {
   color: #131318;
   font-size: 36px;
@@ -827,6 +830,9 @@ select {
 }
 .footer .heading {
   padding-left: 15px;
+}
+.footer .heading a {
+  text-decoration: none;
 }
 .footer .heading .A {
   color: #131318;

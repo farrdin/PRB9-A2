@@ -132,13 +132,33 @@
     width: 100%;
   }
   .destinationimg img {
-    max-width: 100%;
+    width: 100%;
     height: 300px;
   }
   .destinationimg .columa,
   .columb,
   .columc {
     flex-direction: column;
+  }
+  .destinationimg .columb .columb1 h3 {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+  }
+  .destinationimg .columb .columb3 h3 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+  }
+  .destinationimg .columc .columc1 h3 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+  }
+  .destinationimg .columc .columc2 h3 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
   }
   .us {
     margin-bottom: 50px;
