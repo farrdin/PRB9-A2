@@ -204,6 +204,106 @@ select {
   gap: 20px;
   padding-bottom: 20px;
 }
+
+.destinationimg .columa .columa1 {
+  position: relative;
+}
+.destinationimg .columa .columa1 h3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 120px;
+  height: 35px;
+}
+.destinationimg .columa .columa2 {
+  position: relative;
+}
+.destinationimg .columa .columa2 h3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 120px;
+  height: 35px;
+}
+.destinationimg .columb .columb1 {
+  position: relative;
+}
+.destinationimg .columb .columb1 h3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 120px;
+  height: 35px;
+}
+.destinationimg .columb .columb2 {
+  position: relative;
+}
+.destinationimg .columb .columb2 h3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 200px;
+  height: 35px;
+}
+.destinationimg .columb .columb3 {
+  position: relative;
+}
+.destinationimg .columb .columb3 h3 {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 120px;
+  height: 35px;
+}
+.destinationimg .columc .columc1 {
+  position: relative;
+}
+.destinationimg .columc .columc1 h3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 120px;
+  height: 35px;
+}
+.destinationimg .columc .columc2 {
+  position: relative;
+}
+.destinationimg .columc .columc2 h3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  width: 120px;
+  height: 35px;
+}
+
 /* Destination end here */
 /* us start from here */
 .us {
