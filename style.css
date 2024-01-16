@@ -60,6 +60,7 @@
     url(Images/Group.png);
   height: 500px;
   border-radius: 16px;
+  margin-bottom: 100px;
 }
 .travel h1 {
   text-align: center;
@@ -115,10 +116,78 @@ select {
   padding-right: 10px;
 }
 /* Travel end here */
-
 /* tours Start from here */
-
+.tours {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 50px;
+}
+.tours .lefttour {
+  width: 577px;
+}
+.tours .lefttour h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.tours .lefttour p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.tours .lefttour ul {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+}
+.tours .lefttour ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+.tours .lefttour button {
+  width: 140px;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
 /* tours end here */
+/* Destination Start From here  */
+.destination {
+  margin-bottom: 100px;
+}
+.destination h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.destination p {
+  width: 643px;
+  margin: auto;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+.destinationimg {
+  display: grid;
+  
+}
+
+/* Destination end here */
 
 /* footer start from here */
 
