@@ -194,7 +194,160 @@ select {
   padding-bottom: 20px;
 }
 /* Destination end here */
+/* us start from here */
+.us {
+  margin-bottom: 100px;
+}
+/* us end here */
+/* discounts start here */
+.discounts {
+  margin-bottom: 100px;
+}
+/* discounts end here */
+/* lost start from here */
+.lost {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 30px;
+}
+.lost .leftlost {
+  width: 532px;
+}
+.lost .leftlost h1 {
+  width: 448px;
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+.lost .leftlost p {
+  width: 532px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.lost .leftlost ul {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.lost .leftlost ul li {
+  width: 518px;
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+.lost .leftlost button {
+  color: #fff;
+  background: #ff5400;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+}
+.lost .rightlost {
+  width: 610px;
+  height: 424px;
+}
+.lost .rightlost video {
+  height: 100%;
+  width: 100%;
+}
+/* lost end here */
+/* letter start from here */
+.letter {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.letter .leftletter .form {
+  width: 450px;
+  height: 422px;
+  border: 1px solid;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+}
+.letter .leftletter .form h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 30px 0px 15px 30px;
+}
+.letter .leftletter .form p {
+  width: 350px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px 0px 30px 30px;
+}
+.letter .leftletter .form .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 
+.letter .leftletter .form .data input {
+  width: 393px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.letter .leftletter .form .data button {
+  width: 393px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rightletter {
+  position: relative;
+}
+.letter .rightletter .box {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 6px;
+  bottom: 51px;
+}
+.letter .rightletter .box .com {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.letter .rightletter .box .save {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* letter end here */
 /* footer start from here */
 .footer {
   background: rgba(19, 19, 24, 0.05);
