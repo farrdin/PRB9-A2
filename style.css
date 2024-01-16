@@ -304,6 +304,240 @@ select {
 .discounts {
   margin-bottom: 100px;
 }
+.discounts .up h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.discounts .up p {
+  width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 40px;
+}
+.discounts .seeall {
+  width: 210px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+}
+.discounts .down .down1 {
+  height: 500px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(Images/Group39.png);
+  border-radius: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.discounts .down .down1 .boxx {
+  width: 580px;
+  height: 380px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+.discounts .down .down1 .boxx .boxx1 {
+  padding: 40px 0px 0px 80px;
+}
+.discounts .down .down1 .boxx span {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 10px;
+}
+.discounts .down .down1 .boxx h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px 0px 15px 85px;
+}
+.discounts .down .down1 .boxx p {
+  width: 452px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding: 0px 0px 15px 80px;
+}
+.discounts .down .down1 .boxx strong {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0px 0px 15px 80px;
+  display: flex;
+}
+.discounts .down .down1 .boxx .booknow1 {
+  width: 150px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  margin: auto;
+}
+
+.discounts .down .down2 {
+  height: 500px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(Images/Group40.png);
+  border-radius: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.discounts .down .down2 .boxxx {
+  width: 580px;
+  height: 380px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+.discounts .down .down2 .boxxx .boxx2 {
+  padding: 40px 0px 0px 80px;
+}
+.discounts .down .down2 .boxxx span {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 10px;
+}
+.discounts .down .down2 .boxxx h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px 0px 15px 85px;
+}
+.discounts .down .down2 .boxxx p {
+  width: 452px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding: 0px 0px 15px 80px;
+}
+.discounts .down .down2 .boxxx strong {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0px 0px 15px 80px;
+  display: flex;
+}
+.discounts .down .down2 .boxxx .booknow2 {
+  width: 150px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  margin: auto;
+}
+
+.discounts .down .down3 {
+  height: 500px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(Images/Group39.png);
+  border-radius: 16px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.discounts .down .down3 .boxxxx {
+  width: 580px;
+  height: 380px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+.discounts .down .down3 .boxxxx .boxx3 {
+  padding: 40px 0px 0px 80px;
+}
+.discounts .down .down3 .boxxxx span {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 10px;
+}
+.discounts .down .down3 .boxxxx h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px 0px 15px 85px;
+}
+.discounts .down .down3 .boxxxx p {
+  width: 452px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding: 0px 0px 15px 80px;
+}
+.discounts .down .down3 .boxxxx strong {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0px 0px 15px 80px;
+  display: flex;
+}
+.discounts .down .down3 .boxxxx .booknow3 {
+  width: 150px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  margin: auto;
+}
+
 /* discounts end here */
 /* lost start from here */
 .lost {
