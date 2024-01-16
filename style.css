@@ -101,7 +101,7 @@ select {
   font-weight: 400;
   padding-left: 12px;
 }
-.travel button {
+.travel .effect button {
   width: 150px;
   height: 42px;
   border-radius: 8px;
@@ -111,6 +111,13 @@ select {
   text-align: center;
   font-size: 16px;
   font-weight: 100;
+}
+.travel .effect :hover {
+  border: 1px solid #fff;
+  font-size: 18px;
+}
+.travel .effect button :hover {
+  border: none;
 }
 .travel button i {
   padding-right: 10px;
@@ -159,6 +166,10 @@ select {
   color: #fff;
   text-align: center;
   font-size: 20px;
+}
+.tours .lefttour button:hover {
+  border: 1px solid #000000;
+  font-size: 21px;
 }
 /* tours end here */
 /* Destination Start From here  */
@@ -334,6 +345,10 @@ select {
   display: block;
   margin: auto;
 }
+.discounts .seeall:hover {
+  border: 2px solid black;
+  font-size: 21px;
+}
 .discounts .down .down1 {
   height: 500px;
   background-image: linear-gradient(
@@ -400,6 +415,10 @@ select {
   font-weight: 800;
   display: block;
   margin: auto;
+}
+.discounts .down .down1 .boxx .booknow1:hover {
+  border: 2px solid black;
+  font-size: 21px;
 }
 
 .discounts .down .down2 {
@@ -469,7 +488,10 @@ select {
   display: block;
   margin: auto;
 }
-
+.discounts .down .down2 .boxxx .booknow2:hover {
+  border: 2px solid black;
+  font-size: 21px;
+}
 .discounts .down .down3 {
   height: 500px;
   background-image: linear-gradient(
@@ -537,7 +559,10 @@ select {
   display: block;
   margin: auto;
 }
-
+.discounts .down .down3 .boxxxx .booknow3:hover {
+  border: 2px solid black;
+  font-size: 21px;
+}
 /* discounts end here */
 /* lost start from here */
 .lost {
@@ -581,11 +606,15 @@ select {
   background: #ff5400;
   text-align: center;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 500;
   width: 174px;
   height: 52px;
   border: none;
   border-radius: 8px;
+}
+.lost .leftlost button:hover {
+  border: 2px solid black;
+  font-size: 21px;
 }
 .lost .rightlost {
   width: 610px;
@@ -652,7 +681,10 @@ select {
   font-size: 20px;
   font-weight: 500;
 }
-
+.letter .leftletter .form .data button:hover {
+  border: 2px solid black;
+  font-size: 21px;
+}
 .rightletter {
   position: relative;
 }
@@ -718,11 +750,19 @@ select {
   text-align: center;
   padding-bottom: 20px;
 }
+.footer .icon a {
+  text-decoration: none !important ;
+  color: inherit;
+}
 .footer .icon {
   display: flex;
   gap: 20px;
   justify-content: center;
   padding-bottom: 40px;
+  color: #ff5400;
+}
+.footer .icon a:hover {
+  color: #000000;
 }
 hr {
   width: 70%;
