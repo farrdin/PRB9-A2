@@ -759,10 +759,10 @@ select {
   gap: 20px;
   justify-content: center;
   padding-bottom: 40px;
-  color: #ff5400;
+  color: ##000000;
 }
 .footer .icon a:hover {
-  color: #000000;
+  color: #ff5400;
 }
 hr {
   width: 70%;

@@ -1,0 +1,349 @@
+/* responsive media queries start */
+@media screen and (max-width: 600px) {
+  .body {
+    width: 85%;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .nav .menu ul {
+    flex-direction: column;
+  }
+  .travel {
+    margin-bottom: 50px;
+  }
+  .travel img {
+    width: 100%;
+  }
+  .travel h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 40px;
+  }
+  .travel p {
+    font-size: 14px;
+    width: 400px;
+  }
+  .travel .selection {
+    width: 400px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .travel input {
+    width: 97%;
+  }
+  .travel select {
+    width: 100%;
+    font-size: 12px;
+  }
+  .travel .effect button {
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+
+    .lost {
+      flex-direction: column;
+    }
+    .htsr {
+      flex-direction: column;
+    }
+    .us .choose p {
+      width: 300px;
+    }
+    .discounts .up p {
+      width: 300px;
+    }
+    .lost .leftlost h1 {
+      width: 380px;
+    }
+    .lost .leftlost p {
+      width: 300px;
+    }
+    .lost .leftlost ul li {
+      width: 300px;
+    }
+    .letter .rightletter img {
+      width: 450px;
+      margin-top: 20px;
+    }
+    .letter .rightletter .box {
+      width: 100px;
+      height: 60px;
+      border-radius: 10px;
+    }
+    .letter .rightletter .box .com {
+      font-size: 10px;
+    }
+    .letter .rightletter .box .save {
+      font-size: 15px;
+    }
+    .rightletter {
+      position: relative;
+    }
+    .letter .rightletter .box {
+      position: absolute;
+      right: 65px;
+      bottom: 20px;
+    }
+    .lost .rightlost video {
+      width: 450px;
+      height: 200;
+    }
+    .letter {
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+    .footer {
+      width: 500px;
+    }
+    .footer p {
+      width: 400px;
+      padding-bottom: 40px;
+    }
+  }
+  .tours {
+    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tours .lefttour {
+    width: 500px;
+  }
+  .tours .lefttour h1 {
+    font-size: 30px;
+  }
+  .tours .lefttour p {
+    padding-bottom: 30px;
+  }
+  .tours .righttour img {
+    width: 100%;
+  }
+  .destination {
+    margin-bottom: 50px;
+  }
+  .destination h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .destination p {
+    width: 100%;
+  }
+  .destinationimg img {
+    max-width: 100%;
+    height: 300px;
+  }
+  .destinationimg .columa,
+  .columb,
+  .columc {
+    flex-direction: column;
+  }
+  .us {
+    margin-bottom: 50px;
+  }
+  .us .choose h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .us .choose p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .us .htsr {
+    flex-direction: column;
+  }
+  .us .htsr .hotel {
+    width: 100%;
+  }
+  .us .htsr .hotel p {
+    width: 400px;
+    font-size: 14px;
+  }
+  .us .htsr .service {
+    width: 100%;
+  }
+  .us .htsr .service p {
+    width: 400px;
+    font-size: 16px;
+  }
+  .us .guarantee {
+    width: 100%;
+  }
+  .us .guarantee p {
+    width: 400px;
+    font-size: 14px;
+  }
+  .discounts {
+    margin-bottom: 50px;
+  }
+  .discounts .up h1 {
+    font-size: 30px;
+  }
+  .discounts .up p {
+    width: 100%;
+  }
+  .discounts .down .down1 {
+    height: 650px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .discounts .down .down1 .boxx {
+    width: 420px;
+    height: 380px;
+    top: 170px;
+  }
+  .discounts .down .down1 .boxx .boxx1 {
+    padding: 80px 0px 0px 40px;
+  }
+  .discounts .down .down1 .boxx span {
+    font-size: 15px;
+  }
+  .discounts .down .down1 .boxx h3 {
+    padding: 20px 0px 15px 50px;
+  }
+  .discounts .down .down1 .boxx p {
+    width: 300px;
+    font-size: 14px;
+    padding: 0px 0px 15px 50px;
+  }
+  .discounts .down .down1 .boxx strong {
+    font-size: 18px;
+    padding: 0px 0px 15px 50px;
+  }
+  .discounts .down .down1 .boxx .booknow1 {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .discounts .down .down2 {
+    height: 650px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .discounts .down .down2 .boxxx {
+    width: 420px;
+    height: 380px;
+    top: 170px;
+    left: 44px;
+  }
+  .discounts .down .down2 .boxxx .boxx2 {
+    padding: 80px 0px 0px 40px;
+  }
+  .discounts .down .down2 .boxxx span {
+    font-size: 15px;
+  }
+  .discounts .down .down2 .boxxx h3 {
+    padding: 20px 0px 15px 50px;
+  }
+  .discounts .down .down2 .boxxx p {
+    width: 300px;
+    font-size: 14px;
+    padding: 0px 0px 15px 50px;
+  }
+  .discounts .down .down2 .boxxx strong {
+    font-size: 18px;
+    padding: 0px 0px 15px 50px;
+  }
+  .discounts .down .down2 .boxxx .booknow2 {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .discounts .down .down3 {
+    height: 650px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .discounts .down .down3 .boxxxx {
+    width: 420px;
+    height: 380px;
+    top: 170px;
+    left: 44px;
+  }
+  .discounts .down .down3 .boxxxx .boxx3 {
+    padding: 80px 0px 0px 40px;
+  }
+  .discounts .down .down3 .boxxxx span {
+    font-size: 15px;
+  }
+  .discounts .down .down3 .boxxxx h3 {
+    padding: 20px 0px 15px 50px;
+  }
+  .discounts .down .down3 .boxxxx p {
+    width: 300px;
+    font-size: 14px;
+    padding: 0px 0px 15px 50px;
+  }
+  .discounts .down .down3 .boxxxx strong {
+    font-size: 18px;
+    padding: 0px 0px 15px 50px;
+  }
+  .discounts .down .down3 .boxxxx .booknow3 {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .lost {
+    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .lost .leftlost h1 {
+    width: 60%;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .lost .leftlost p {
+    width: 90%;
+  }
+  .lost .leftlost ul li {
+    width: 90%;
+    font-size: 18px;
+  }
+  .lost .rightlost {
+    width: 100%;
+    height: 100%;
+  }
+  .letter {
+    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .letter .leftletter .form {
+    width: 100%;
+  }
+  .letter .leftletter .form p {
+    width: 90%;
+  }
+  .letter .leftletter .form .data input {
+    width: 90%;
+  }
+  .letter .leftletter .form .data button {
+    width: 80%;
+  }
+  .rightletter img {
+    width: 100%;
+  }
+  .rightletter {
+    position: relative;
+  }
+  .letter .rightletter .box {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    right: 6px;
+    bottom: 31px;
+  }
+  .letter .rightletter .box .com {
+    font-size: 18px;
+  }
+  .letter .rightletter .box .save {
+    font-size: 26px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer p {
+    width: 80%;
+    padding-bottom: 30px;
+  }
+}
