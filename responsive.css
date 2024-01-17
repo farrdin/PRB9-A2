@@ -43,66 +43,6 @@
     width: 100%;
     height: 42px;
     font-size: 14px;
-
-    .lost {
-      flex-direction: column;
-    }
-    .htsr {
-      flex-direction: column;
-    }
-    .us .choose p {
-      width: 300px;
-    }
-    .discounts .up p {
-      width: 300px;
-    }
-    .lost .leftlost h1 {
-      width: 380px;
-    }
-    .lost .leftlost p {
-      width: 300px;
-    }
-    .lost .leftlost ul li {
-      width: 300px;
-    }
-    .letter .rightletter img {
-      width: 450px;
-      margin-top: 20px;
-    }
-    .letter .rightletter .box {
-      width: 100px;
-      height: 60px;
-      border-radius: 10px;
-    }
-    .letter .rightletter .box .com {
-      font-size: 10px;
-    }
-    .letter .rightletter .box .save {
-      font-size: 15px;
-    }
-    .rightletter {
-      position: relative;
-    }
-    .letter .rightletter .box {
-      position: absolute;
-      right: 65px;
-      bottom: 20px;
-    }
-    .lost .rightlost video {
-      width: 450px;
-      height: 200;
-    }
-    .letter {
-      flex-direction: column;
-      margin-bottom: 50px;
-    }
-    .footer {
-      width: 500px;
-    }
-    .footer p {
-      width: 400px;
-      padding-bottom: 40px;
-    }
   }
   .tours {
     margin-bottom: 50px;
@@ -205,20 +145,21 @@
     width: 100%;
   }
   .discounts .down .down1 {
-    height: 650px;
+    height: 500px;
     margin-bottom: 30px;
     position: relative;
   }
   .discounts .down .down1 .boxx {
-    width: 420px;
-    height: 380px;
-    top: 170px;
+    width: 380px;
+    height: 350px;
+    top: 70px;
+    left: 44px;
   }
   .discounts .down .down1 .boxx .boxx1 {
-    padding: 80px 0px 0px 40px;
+    padding: 40px 0px 0px 40px;
   }
   .discounts .down .down1 .boxx span {
-    font-size: 15px;
+    font-size: 12px;
   }
   .discounts .down .down1 .boxx h3 {
     padding: 20px 0px 15px 50px;
@@ -237,21 +178,21 @@
     margin-left: 50px;
   }
   .discounts .down .down2 {
-    height: 650px;
+    height: 500px;
     margin-bottom: 30px;
     position: relative;
   }
   .discounts .down .down2 .boxxx {
-    width: 420px;
-    height: 380px;
-    top: 170px;
+    width: 380px;
+    height: 350px;
+    top: 70px;
     left: 44px;
   }
   .discounts .down .down2 .boxxx .boxx2 {
-    padding: 80px 0px 0px 40px;
+    padding: 40px 0px 0px 40px;
   }
   .discounts .down .down2 .boxxx span {
-    font-size: 15px;
+    font-size: 12px;
   }
   .discounts .down .down2 .boxxx h3 {
     padding: 20px 0px 15px 50px;
@@ -270,21 +211,21 @@
     margin-left: 50px;
   }
   .discounts .down .down3 {
-    height: 650px;
+    height: 500px;
     margin-bottom: 30px;
     position: relative;
   }
   .discounts .down .down3 .boxxxx {
-    width: 420px;
-    height: 380px;
-    top: 170px;
+    width: 380px;
+    height: 350px;
+    top: 70px;
     left: 44px;
   }
   .discounts .down .down3 .boxxxx .boxx3 {
-    padding: 80px 0px 0px 40px;
+    padding: 40px 0px 0px 40px;
   }
   .discounts .down .down3 .boxxxx span {
-    font-size: 15px;
+    font-size: 12px;
   }
   .discounts .down .down3 .boxxxx h3 {
     padding: 20px 0px 15px 50px;
@@ -364,6 +305,6 @@
   }
   .footer p {
     width: 80%;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
 }
