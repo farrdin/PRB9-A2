@@ -13,7 +13,7 @@
   .nav .menu ul {
     display: none;
   }
-  .nav .menu .hamburger {
+  .nav .menu .hamburger a {
     display: inline;
   }
   .travel {
