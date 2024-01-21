@@ -4,11 +4,17 @@
     width: 85%;
   }
   .nav {
-    flex-direction: column;
+    flex-direction: flex;
     gap: 30px;
   }
   .nav .menu ul {
     flex-direction: column;
+  }
+  .nav .menu ul {
+    display: none;
+  }
+  .nav .menu .hamburger {
+    display: inline;
   }
   .travel {
     margin-bottom: 50px;

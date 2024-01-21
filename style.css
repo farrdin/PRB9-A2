@@ -38,6 +38,9 @@
   gap: 1.5rem;
   list-style: none;
 }
+.nav .menu .hamburger {
+  display: none;
+}
 .nav .menu ul li a {
   text-decoration: none;
   color: #424247;
